@@ -6,9 +6,9 @@ import org.apache.camel.component.jms.{JmsComponent, JmsConfiguration}
 
 object MyConfig {
 
-	val username = "system"
-	val password = "oracle"
-	val url = "jdbc:oracle:thin:@localhost:1521:SID"
+	val username = "??"
+	val password = "??"
+	val url = "??"
 
 	def factory = {
 		val ds = new OracleDataSource

@@ -15,11 +15,11 @@ libraryDependencies ++= {
 		"org.slf4j" % "slf4j-api" % "1.7.2",
 		"ch.qos.logback" % "logback-classic" % "1.0.7",
 
-		"javax.jms" % "jms" % "1.1",
-		"javax.transaction" % "jta" % "1.1",
+		//"javax.jms" % "jms" % "2.0", // in lib/
+		"javax.transaction" % "jta" % "1.1"
 
-		"oracle" % "ojdbc5" % "11.1.0.7.0",
-		"oracle" % "aqapi12" % "10.1.0.5.0"
+		//"oracle" % "ojdbc5" % "11.1.0.7.0", // in lib/
+		//"oracle" % "aqapi12" % "10.1.0.5.0" // in lib/
 	)
 }
 

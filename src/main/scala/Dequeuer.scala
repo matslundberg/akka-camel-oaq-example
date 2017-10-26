@@ -14,6 +14,6 @@ class DequeuerActor extends Consumer with ActorLogging {
 	def endpointUri = MyConfig.JMS_ENDPOINT
 
 	def receive = {
-		case msg: CamelMessage => log.info(s"\n\n>> message arrived: ${msg.bodyAs[String]} \n")
+		case msg: CamelMessage => log.info(s"\n\n>> message arrived: ${msg} \n")
 	}
 }
